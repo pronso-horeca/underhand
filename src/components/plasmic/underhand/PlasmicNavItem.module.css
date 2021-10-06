@@ -1,0 +1,74 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .root {
+    flex-direction: row-reverse;
+  }
+}
+@media (min-width: 768px) {
+  .root > :global(.__wab_flex-container) {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: calc(0px - 20px);
+    width: calc(100% + 20px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
+  }
+}
+@media (min-width: 768px) {
+  .root > :global(.__wab_flex-container) > *,
+  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .root > :global(.__wab_flex-container) > picture > img,
+  .root
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+}
+@media (min-width: 1280px) {
+  .root > :global(.__wab_flex-container) {
+    align-items: center;
+  }
+}
+.slotTargetLabel {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  flex-shrink: 0;
+}
+@media (min-width: 1280px) {
+  .freeBox {
+    align-self: center;
+  }
+}
+.svg__kyzOj {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}

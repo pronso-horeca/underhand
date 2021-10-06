@@ -1,0 +1,312 @@
+{
+  "platform": "gatsby",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../static",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "azVx9DM13tZbR2SGxpPJBW",
+      "projectName": "underhand",
+      "version": "latest",
+      "cssFilePath": "plasmic/underhand/plasmic_underhand.module.css",
+      "components": [
+        {
+          "id": "jSktf8A0ArUU",
+          "name": "Home",
+          "type": "managed",
+          "projectId": "azVx9DM13tZbR2SGxpPJBW",
+          "renderModuleFilePath": "plasmic/underhand/PlasmicHome.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/underhand/PlasmicHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "6Hw2GdZg4E",
+          "name": "NavItem",
+          "type": "managed",
+          "projectId": "azVx9DM13tZbR2SGxpPJBW",
+          "renderModuleFilePath": "plasmic/underhand/PlasmicNavItem.tsx",
+          "importSpec": {
+            "modulePath": "NavItem.tsx"
+          },
+          "cssFilePath": "plasmic/underhand/PlasmicNavItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "WybYbYmXYd",
+          "name": "Section",
+          "type": "managed",
+          "projectId": "azVx9DM13tZbR2SGxpPJBW",
+          "renderModuleFilePath": "plasmic/underhand/PlasmicSection.tsx",
+          "importSpec": {
+            "modulePath": "Section.tsx"
+          },
+          "cssFilePath": "plasmic/underhand/PlasmicSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "WLo4_NhyOe",
+          "name": "MainNavigation",
+          "type": "managed",
+          "projectId": "azVx9DM13tZbR2SGxpPJBW",
+          "renderModuleFilePath": "plasmic/underhand/PlasmicMainNavigation.tsx",
+          "importSpec": {
+            "modulePath": "MainNavigation.tsx"
+          },
+          "cssFilePath": "plasmic/underhand/PlasmicMainNavigation.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Ms55rfh3aQ",
+          "name": "NavigationHamburger",
+          "type": "managed",
+          "projectId": "azVx9DM13tZbR2SGxpPJBW",
+          "renderModuleFilePath": "plasmic/underhand/PlasmicNavigationHamburger.tsx",
+          "importSpec": {
+            "modulePath": "NavigationHamburger.tsx"
+          },
+          "cssFilePath": "plasmic/underhand/PlasmicNavigationHamburger.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "QxisHOJ3lBN",
+          "name": "MobileNavigation",
+          "type": "managed",
+          "projectId": "azVx9DM13tZbR2SGxpPJBW",
+          "renderModuleFilePath": "plasmic/underhand/PlasmicMobileNavigation.tsx",
+          "importSpec": {
+            "modulePath": "MobileNavigation.tsx"
+          },
+          "cssFilePath": "plasmic/underhand/PlasmicMobileNavigation.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "s5p5v6fIqv",
+          "name": "TextContainer",
+          "type": "managed",
+          "projectId": "azVx9DM13tZbR2SGxpPJBW",
+          "renderModuleFilePath": "plasmic/underhand/PlasmicTextContainer.tsx",
+          "importSpec": {
+            "modulePath": "TextContainer.tsx"
+          },
+          "cssFilePath": "plasmic/underhand/PlasmicTextContainer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "KLJ3eYMzM6",
+          "name": "Menu",
+          "type": "managed",
+          "projectId": "azVx9DM13tZbR2SGxpPJBW",
+          "renderModuleFilePath": "plasmic/underhand/PlasmicMenu.tsx",
+          "importSpec": {
+            "modulePath": "../pages/menu.tsx"
+          },
+          "cssFilePath": "plasmic/underhand/PlasmicMenu.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "RwQZi7eZFd",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "azVx9DM13tZbR2SGxpPJBW",
+          "renderModuleFilePath": "plasmic/underhand/PlasmicHeader.tsx",
+          "importSpec": {
+            "modulePath": "Header.tsx"
+          },
+          "cssFilePath": "plasmic/underhand/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "cwJrUItrF",
+          "name": "HamburgerNavigationIcon",
+          "moduleFilePath": "plasmic/underhand/icons/PlasmicIcon__HamburgerNavigation.tsx"
+        },
+        {
+          "id": "cBPVv-cl4",
+          "name": "LocationIcon",
+          "moduleFilePath": "plasmic/underhand/icons/PlasmicIcon__Location.tsx"
+        },
+        {
+          "id": "pjGKTN-7w",
+          "name": "MenuIcon",
+          "moduleFilePath": "plasmic/underhand/icons/PlasmicIcon__Menu.tsx"
+        },
+        {
+          "id": "dUKh8-XoF",
+          "name": "IdentificationsvgIcon",
+          "moduleFilePath": "plasmic/underhand/icons/PlasmicIcon__Identificationsvg.tsx"
+        },
+        {
+          "id": "iw-Wt1o3f",
+          "name": "WhiskeysvgIcon",
+          "moduleFilePath": "plasmic/underhand/icons/PlasmicIcon__Whiskeysvg.tsx"
+        },
+        {
+          "id": "3MTRNv7D5",
+          "name": "BurgersvgIcon",
+          "moduleFilePath": "plasmic/underhand/icons/PlasmicIcon__Burgersvg.tsx"
+        },
+        {
+          "id": "Dy0n5Dy_a",
+          "name": "TraysvgIcon",
+          "moduleFilePath": "plasmic/underhand/icons/PlasmicIcon__Traysvg.tsx"
+        },
+        {
+          "id": "rmynkbPIN",
+          "name": "TeamsvgIcon",
+          "moduleFilePath": "plasmic/underhand/icons/PlasmicIcon__Teamsvg.tsx"
+        },
+        {
+          "id": "X92WVhKAn",
+          "name": "MenusvgIcon",
+          "moduleFilePath": "plasmic/underhand/icons/PlasmicIcon__Menusvg.tsx"
+        },
+        {
+          "id": "Flw25NYGX",
+          "name": "FacebooksvgIcon",
+          "moduleFilePath": "plasmic/underhand/icons/PlasmicIcon__Facebooksvg.tsx"
+        },
+        {
+          "id": "9tosiFRmf",
+          "name": "Instagram2SvgIcon",
+          "moduleFilePath": "plasmic/underhand/icons/PlasmicIcon__Instagram2Svg.tsx"
+        },
+        {
+          "id": "BvGoZqD6m",
+          "name": "PhonesvgIcon",
+          "moduleFilePath": "plasmic/underhand/icons/PlasmicIcon__Phonesvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "Yicp3Lg_S",
+          "name": "intro",
+          "filePath": "plasmic/underhand/images/intro.jpeg"
+        },
+        {
+          "id": "2UYEVll4d3",
+          "name": "logo-underhand",
+          "filePath": "plasmic/underhand/images/logoUnderhand.png"
+        },
+        {
+          "id": "ZP9rB35W4H",
+          "name": "burgers",
+          "filePath": "plasmic/underhand/images/burgers.png"
+        },
+        {
+          "id": "StCKt6_Cu6",
+          "name": "ntb-logo",
+          "filePath": "plasmic/underhand/images/ntbLogo.png"
+        },
+        {
+          "id": "gwHhXKGFm",
+          "name": "ntb-boy",
+          "filePath": "plasmic/underhand/images/ntbBoy.gif"
+        },
+        {
+          "id": "fqLvwmDJH",
+          "name": "ntb-feel",
+          "filePath": "plasmic/underhand/images/ntbFeel.png"
+        },
+        {
+          "id": "ENYzwnINd",
+          "name": "namtreba-burgers-logo",
+          "filePath": "plasmic/underhand/images/namtrebaBurgersLogo.png"
+        },
+        {
+          "id": "rFDKFObjp",
+          "name": "cocktail.jpg",
+          "filePath": "plasmic/underhand/images/cocktailjpg.jpeg"
+        },
+        {
+          "id": "N0xjTwSQv",
+          "name": "food.jpg",
+          "filePath": "plasmic/underhand/images/foodjpg.jpeg"
+        },
+        {
+          "id": "ZPDg6n-FG",
+          "name": "meet.jpg",
+          "filePath": "plasmic/underhand/images/meetjpg.jpeg"
+        },
+        {
+          "id": "uqpZ4PPfT",
+          "name": "menu-cocktails.jpeg",
+          "filePath": "plasmic/underhand/images/menuCocktailsjpeg.jpeg"
+        },
+        {
+          "id": "T7i5rL0yq",
+          "name": "menu-food.png",
+          "filePath": "plasmic/underhand/images/menuFoodpng.png"
+        },
+        {
+          "id": "IBFISG1jD",
+          "name": "menu-burgers.jpeg",
+          "filePath": "plasmic/underhand/images/menuBurgersjpeg.jpeg"
+        },
+        {
+          "id": "4KEBbr4d9",
+          "name": "menu-drinks-2.png",
+          "filePath": "plasmic/underhand/images/menuDrinks2Png.png"
+        },
+        {
+          "id": "LDHYiUuyT",
+          "name": "menu-drinks-1.jpg",
+          "filePath": "plasmic/underhand/images/menuDrinks1Jpg.jpeg"
+        }
+      ],
+      "codeComponents": [],
+      "projectApiToken": "6Kj6lIEuEjYvlSnKg1EwB8YTuxdn9oYcqzyVlArhDz4jTqUg1jiCwscxLAqUB5mAHQVlu6KGVmqJoWb5hw8Q"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "MpD2J1nj9GPB",
+        "name": "Screen",
+        "projectId": "azVx9DM13tZbR2SGxpPJBW",
+        "contextFilePath": "plasmic/underhand/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "IK06cfUF8p",
+        "name": "Language",
+        "projectId": "azVx9DM13tZbR2SGxpPJBW",
+        "contextFilePath": "plasmic/underhand/PlasmicGlobalVariant__Language.tsx"
+      }
+    ]
+  },
+  "gatsbyConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.161",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.161/dist/plasmic.schema.json"
+}
