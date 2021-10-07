@@ -282,6 +282,11 @@
           "id": "LDHYiUuyT",
           "name": "menu-drinks-1.jpg",
           "filePath": "plasmic/underhand/images/menuDrinks1Jpg.jpeg"
+        },
+        {
+          "id": "Wst6d2bRS",
+          "name": "logo.svg",
+          "filePath": "plasmic/underhand/images/logosvg.svg"
         }
       ],
       "codeComponents": [],
