@@ -75,7 +75,7 @@ export type PlasmicHome__OverridesType = {
   mainNav?: p.Flex<typeof MobileNavigation>
   title?: p.Flex<"h1">
   subtitle?: p.Flex<"h1">
-  footerNavigation?: p.Flex<"div">
+  contacts?: p.Flex<"div">
   location?: p.Flex<typeof NavItem>
   phone?: p.Flex<typeof NavItem>
   instagram?: p.Flex<typeof NavItem>
@@ -594,9 +594,10 @@ function PlasmicHome__RenderFunc(props: {
           ) : null}
           {true ? (
             <div
-              data-plasmic-name={"footerNavigation"}
-              data-plasmic-override={overrides.footerNavigation}
-              className={classNames(defaultcss.all, sty.footerNavigation)}
+              data-plasmic-name={"contacts"}
+              data-plasmic-override={overrides.contacts}
+              className={classNames(defaultcss.all, sty.contacts)}
+              id={"contacts" as const}
             >
               <NavItem
                 data-plasmic-name={"location"}
@@ -829,7 +830,7 @@ const PlasmicDescendants = {
     "mainNav",
     "title",
     "subtitle",
-    "footerNavigation",
+    "contacts",
     "location",
     "phone",
     "instagram",
@@ -844,8 +845,8 @@ const PlasmicDescendants = {
   mainNav: ["mainNav"],
   title: ["title"],
   subtitle: ["subtitle"],
-  footerNavigation: [
-    "footerNavigation",
+  contacts: [
+    "contacts",
     "location",
     "phone",
     "instagram",
@@ -875,7 +876,7 @@ type NodeDefaultElementType = {
   mainNav: typeof MobileNavigation
   title: "h1"
   subtitle: "h1"
-  footerNavigation: "div"
+  contacts: "div"
   location: typeof NavItem
   phone: typeof NavItem
   instagram: typeof NavItem
@@ -952,7 +953,7 @@ export const PlasmicHome = Object.assign(
     mainNav: makeNodeComponent("mainNav"),
     title: makeNodeComponent("title"),
     subtitle: makeNodeComponent("subtitle"),
-    footerNavigation: makeNodeComponent("footerNavigation"),
+    contacts: makeNodeComponent("contacts"),
     location: makeNodeComponent("location"),
     phone: makeNodeComponent("phone"),
     instagram: makeNodeComponent("instagram"),
