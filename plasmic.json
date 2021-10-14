@@ -289,11 +289,6 @@
           "filePath": "plasmic/underhand/images/logosvg.svg"
         },
         {
-          "id": "SeTAN8yW8",
-          "name": "menu-kitchen-01-10-2021.jpg",
-          "filePath": "plasmic/underhand/images/menuKitchen01102021Jpg.jpeg"
-        },
-        {
           "id": "ZcMwxW6OO",
           "name": "menu-cocktails-01-10-2021.jpg",
           "filePath": "plasmic/underhand/images/menuCocktails01102021Jpg.jpeg"
@@ -302,6 +297,11 @@
           "id": "Mzo5Sbq1u",
           "name": "menu-bar-01-10-2021.jpg",
           "filePath": "plasmic/underhand/images/menuBar01102021Jpg.jpeg"
+        },
+        {
+          "id": "MiBA7AA3b",
+          "name": "menu-kitchen-01-10-2021.jpg",
+          "filePath": "plasmic/underhand/images/menuKitchen01102021Jpg.jpeg"
         }
       ],
       "codeComponents": [],
