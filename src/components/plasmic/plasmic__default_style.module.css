@@ -10,10 +10,6 @@
   box-shadow: none;
   box-sizing: border-box;
   text-decoration-line: none;
-  transition-property: all;
-  transition-timing-function: ease;
-  transition-delay: 0s;
-  transition-duration: 0s;
   margin: 0;
   border-width: 0px;
 }

@@ -287,6 +287,21 @@
           "id": "Wst6d2bRS",
           "name": "logo.svg",
           "filePath": "plasmic/underhand/images/logosvg.svg"
+        },
+        {
+          "id": "SeTAN8yW8",
+          "name": "menu-kitchen-01-10-2021.jpg",
+          "filePath": "plasmic/underhand/images/menuKitchen01102021Jpg.jpeg"
+        },
+        {
+          "id": "ZcMwxW6OO",
+          "name": "menu-cocktails-01-10-2021.jpg",
+          "filePath": "plasmic/underhand/images/menuCocktails01102021Jpg.jpeg"
+        },
+        {
+          "id": "Mzo5Sbq1u",
+          "name": "menu-bar-01-10-2021.jpg",
+          "filePath": "plasmic/underhand/images/menuBar01102021Jpg.jpeg"
         }
       ],
       "codeComponents": [],
@@ -312,6 +327,6 @@
   "gatsbyConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.161",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.161/dist/plasmic.schema.json"
+  "cliVersion": "0.1.162",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.162/dist/plasmic.schema.json"
 }

@@ -41,11 +41,9 @@ import * as defaultcss from "../plasmic__default_style.module.css" // plasmic-im
 import * as projectcss from "./plasmic_underhand.module.css" // plasmic-import: azVx9DM13tZbR2SGxpPJBW/projectcss
 import * as sty from "./PlasmicMenu.module.css" // plasmic-import: KLJ3eYMzM6/css
 
-import menuCocktailsjpegUqpZ4PPfT from "./images/menuCocktailsjpeg.jpeg" // plasmic-import: uqpZ4PPfT/picture
-import menuFoodpngT7I5RL0Yq from "./images/menuFoodpng.png" // plasmic-import: T7i5rL0yq/picture
-import menuBurgersjpegIbfisg1JD from "./images/menuBurgersjpeg.jpeg" // plasmic-import: IBFISG1jD/picture
-import menuDrinks1JpgLdhYiUuyT from "./images/menuDrinks1Jpg.jpeg" // plasmic-import: LDHYiUuyT/picture
-import menuDrinks2Png4KeBbr4D9 from "./images/menuDrinks2Png.png" // plasmic-import: 4KEBbr4d9/picture
+import menuCocktails01102021JpgZcMwxW6Oo from "./images/menuCocktails01102021Jpg.jpeg" // plasmic-import: ZcMwxW6OO/picture
+import menuBar01102021JpgMzo5Sbq1U from "./images/menuBar01102021Jpg.jpeg" // plasmic-import: Mzo5Sbq1u/picture
+import menuKitchen01102021JpgSeTan8YW8 from "./images/menuKitchen01102021Jpg.jpeg" // plasmic-import: SeTAN8yW8/picture
 
 export type PlasmicMenu__VariantMembers = {}
 
@@ -127,32 +125,20 @@ function PlasmicMenu__RenderFunc(props: {
           >
             <img
               alt={""}
-              className={classNames(defaultcss.img, sty.img__oiYye)}
-              src={menuCocktailsjpegUqpZ4PPfT}
-            />
-
-            <img
-              alt={""}
-              className={classNames(defaultcss.img, sty.img__qAnuZ)}
-              src={menuFoodpngT7I5RL0Yq}
-            />
-
-            <img
-              alt={""}
-              className={classNames(defaultcss.img, sty.img__qMQtF)}
-              src={menuBurgersjpegIbfisg1JD}
-            />
-
-            <img
-              alt={""}
-              className={classNames(defaultcss.img, sty.img__hXuGt)}
-              src={menuDrinks1JpgLdhYiUuyT}
-            />
-
-            <img
-              alt={""}
               className={classNames(defaultcss.img, sty.img___6KXgK)}
-              src={menuDrinks2Png4KeBbr4D9}
+              src={menuCocktails01102021JpgZcMwxW6Oo}
+            />
+
+            <img
+              alt={""}
+              className={classNames(defaultcss.img, sty.img__umBTp)}
+              src={menuBar01102021JpgMzo5Sbq1U}
+            />
+
+            <img
+              alt={""}
+              className={classNames(defaultcss.img, sty.img__d3BhL)}
+              src={menuKitchen01102021JpgSeTan8YW8}
             />
           </div>
         </div>
