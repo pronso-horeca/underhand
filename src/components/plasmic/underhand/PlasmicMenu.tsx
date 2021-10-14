@@ -43,7 +43,7 @@ import * as sty from "./PlasmicMenu.module.css" // plasmic-import: KLJ3eYMzM6/cs
 
 import menuCocktails01102021JpgZcMwxW6Oo from "./images/menuCocktails01102021Jpg.jpeg" // plasmic-import: ZcMwxW6OO/picture
 import menuBar01102021JpgMzo5Sbq1U from "./images/menuBar01102021Jpg.jpeg" // plasmic-import: Mzo5Sbq1u/picture
-import menuKitchen01102021JpgMiBa7Aa3B from "./images/menuKitchen01102021Jpg.jpeg" // plasmic-import: MiBA7AA3b/picture
+import menuKitchen011020212JpgMiBa7Aa3B from "./images/menuKitchen011020212Jpg.jpeg" // plasmic-import: MiBA7AA3b/picture
 
 export type PlasmicMenu__VariantMembers = {}
 
@@ -138,7 +138,7 @@ function PlasmicMenu__RenderFunc(props: {
             <img
               alt={""}
               className={classNames(defaultcss.img, sty.img__d3BhL)}
-              src={menuKitchen01102021JpgMiBa7Aa3B}
+              src={menuKitchen011020212JpgMiBa7Aa3B}
             />
           </div>
         </div>
